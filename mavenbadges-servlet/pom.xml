@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.javastack</groupId>
+		<artifactId>mavenbadges</artifactId>
+		<version>1.0.0</version>
+		<relativePath>..</relativePath>
+	</parent>
+
+	<artifactId>mavenbadges-servlet</artifactId>
+	<packaging>jar</packaging>
+
+	<properties>
+		<projectRoot>${project.basedir}/..</projectRoot>
+		<servlet.version>3.1.0</servlet.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.javastack</groupId>
+			<artifactId>mavenbadges-core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>${servlet.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>
