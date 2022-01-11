@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.javastack</groupId>
 		<artifactId>mavenbadges</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<relativePath>..</relativePath>
 	</parent>
 
@@ -16,7 +16,7 @@
 	<properties>
 		<projectRoot>${project.basedir}/..</projectRoot>
 		<servlet.version>3.1.0</servlet.version>
-		<jetty.version>9.4.30.v20200611</jetty.version>
+		<jetty.version>9.4.44.v20210927</jetty.version>
 	</properties>
 
 	<dependencies>

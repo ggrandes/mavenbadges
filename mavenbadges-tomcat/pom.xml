@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.javastack</groupId>
 		<artifactId>mavenbadges</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<relativePath>..</relativePath>
 	</parent>
 
@@ -15,7 +15,7 @@
 
 	<properties>
 		<projectRoot>${project.basedir}/..</projectRoot>
-		<tomcat.version>8.5.56</tomcat.version>
+		<tomcat.version>8.5.73</tomcat.version>
 	</properties>
 
 	<dependencies>
