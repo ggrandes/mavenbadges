@@ -15,7 +15,7 @@
 
 	<properties>
 		<projectRoot>${project.basedir}/..</projectRoot>
-		<tomcat.version>8.5.73</tomcat.version>
+		<tomcat.version>8.5.100</tomcat.version>
 	</properties>
 
 	<dependencies>
